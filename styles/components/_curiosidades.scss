@@ -1,0 +1,27 @@
+@import '../abstract/variaveis';
+
+#curiosidade{
+    text-align: center;
+    line-height: 1rem;
+    padding: 50px;
+    line-height: 1.5rem;
+
+
+    .curiosidade-text{
+        text-align: center;
+
+        h3{
+            font-size: 1.8rem;
+            font-weight: 300;
+            color: $cor-texto;
+            margin-bottom: .75rem;
+
+        }
+
+        h4{
+            font-weight: 400;
+            color: $cor-botao;
+            font-size: 1.1rem;
+        }
+    }
+}

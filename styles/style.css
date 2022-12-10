@@ -1,0 +1,184 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #553939;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #A77979;
+  border-radius: 5px;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #A77979;
+  opacity: 0.8;
+  border-radius: 45px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #472D2D;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #553939;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #472D2D;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+  color: #704F4F;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #A77979;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #553939;
+  line-height: 1.25rem;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 3.5px solid #704F4F;
+  border-radius: 10px;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #A77979;
+  opacity: 0.85;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #472D2D;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.7647058824rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 20px;
+  border: 4px solid white;
+  background: white;
+  transition: all 0.3s;
+}
+#cupom .input input {
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  width: 540px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #472D2D;
+  outline: none;
+  transition: 0.2s;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  background-color: #6B4F4F;
+  color: #EED6C4;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #EED6C4;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  color: #6B4F4F;
+  background-color: #EED6C4;
+  border-color: #6B4F4F;
+  transition: 0.28s;
+}
+
+.container-footer {
+  text-align: center;
+  font-size: 1.5rem;
+  border-top: 2px solid #553939;
+  border-radius: 8px;
+  margin-top: 1rem;
+  padding: 1.2rem;
+}
+.container-footer i {
+  color: #472D2D;
+}
+
+#curiosidade {
+  text-align: center;
+  line-height: 1rem;
+  padding: 50px;
+  line-height: 1.5rem;
+}
+#curiosidade .curiosidade-text {
+  text-align: center;
+}
+#curiosidade .curiosidade-text h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #472D2D;
+  margin-bottom: 0.75rem;
+}
+#curiosidade .curiosidade-text h4 {
+  font-weight: 400;
+  color: #6B4F4F;
+  font-size: 1.1rem;
+}/*# sourceMappingURL=style.css.map */
